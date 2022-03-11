@@ -6,7 +6,7 @@
 /*   By: ekeen-wy <ekeen-wy@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/09 16:13:10 by ekeen-wy          #+#    #+#             */
-/*   Updated: 2022/03/11 16:18:33 by ekeen-wy         ###   ########.fr       */
+/*   Updated: 2022/03/11 21:20:51 by ekeen-wy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,8 @@
 
 /* The function below is identical to the one used in printing hex. 
 But I duplicated it here because I am using a different data type here
-versus what I used in hex (unsigned int vs uintptr_t respectively).
+versus what I used in hex (unsigned int vs uintptr_t respectively) to ensure 
+portability.
 */
 static size_t	allocate_size_p(uintptr_t num)
 {
