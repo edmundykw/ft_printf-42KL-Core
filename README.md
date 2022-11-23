@@ -1,6 +1,6 @@
 # 42KL Core Porgram - ft_printf
 ## About
-This is the second project within 42KL's core program. The main goal is to learn *variadic function* by recreating a simplified version of `libc`'s `print` function.
+The main goal of this project is to learn *variadic function* by recreating a simplified version of `libc`'s `print` function.
 ### Mandatory
 The printf function that I recode should handle for `diuxXcsp%` type conversions.
 
